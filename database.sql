@@ -44,7 +44,7 @@ INSERT INTO native_users
 (username, password, full_name, course, year_level, email, profile_photo)
 VALUES (
     'johnneo',
-    '$2y$10$wH8z8QZk3v6Gk7p9kVQpUeFv9mXyY8jZyqT3lXv0Zz8u8wz1lJ6mG', -- password: 123456
+    '$2y$10$NVj0jKax.F3WPVbl7C8i5Opb55Xs07YHhBCuhAXPePxBZH7PYWFnq', -- password: 123456
     'Johnneo Blas',
     'BSIT',
     '3rd Year',
