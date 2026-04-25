@@ -38,18 +38,18 @@ CREATE TABLE IF NOT EXISTS skills (
     ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
---  USER: johnneo (PASSWORD = 123456)
+--  USER: yuan (PASSWORD = 123456)
 
 INSERT INTO native_users 
 (username, password, full_name, course, year_level, email, profile_photo)
 VALUES (
-    'johnneo',
+    'Yuan',
     '$2y$10$NVj0jKax.F3WPVbl7C8i5Opb55Xs07YHhBCuhAXPePxBZH7PYWFnq', -- password: 123456
-    'Johnneo Blas',
+    'Yuan Paul Adrian Macaspac',
     'BSIT',
-    '3rd Year',
-    'johnneo@gmail.com',
-    'johnneo.jpg'
+    '2rd Year',
+    'yuanmacaspac@gmail.com',
+    'yuanpaul.jpg'
 );
 
 --  SKILLS
@@ -57,20 +57,20 @@ VALUES (
 INSERT INTO skills (username, category, name, color) VALUES
 
 -- Frontend
-('johnneo', 'Frontend', 'HTML', 'bg-danger'),
-('johnneo', 'Frontend', 'CSS', 'bg-primary'),
-('johnneo', 'Frontend', 'JavaScript', 'bg-warning text-dark'),
-('johnneo', 'Frontend', 'Bootstrap 5', 'bg-info text-dark'),
+('yuan', 'Frontend', 'HTML', 'bg-danger'),
+('yuan', 'Frontend', 'CSS', 'bg-primary'),
+('yuan', 'Frontend', 'JavaScript', 'bg-warning text-dark'),
+('yuan', 'Frontend', 'Bootstrap 5', 'bg-info text-dark'),
 
 -- Backend
-('johnneo', 'Backend', 'PHP', 'bg-secondary'),
-('johnneo', 'Backend', 'MySQL', 'bg-success'),
+('yuan', 'Backend', 'PHP', 'bg-secondary'),
+('yuan', 'Backend', 'MySQL', 'bg-success'),
 
 -- Libraries
-('johnneo', 'Libraries', 'jQuery', 'bg-dark'),
+('yuan', 'Libraries', 'jQuery', 'bg-dark'),
 
 -- Design
-('johnneo', 'Design', 'Responsive Design', 'bg-primary');
+('yuan', 'Design', 'Responsive Design', 'bg-primary');
 
 --  CONFIRM
 
